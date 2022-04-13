@@ -83,7 +83,7 @@ fn test_wifi() -> Result<String> {
 
     wifi.set_configuration(&Configuration::Client(ClientConfiguration {
         ssid: "IOT".into(),
-        password: "ASTRA666737925".into(),
+        password: "".into(),
         ..Default::default()
     }))?;
 
